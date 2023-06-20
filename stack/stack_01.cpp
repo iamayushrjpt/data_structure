@@ -54,12 +54,26 @@ public:
         cout<<"top element is :"<<arr[top]<<"\n";
         }
     }
+
     //view all Elements
     void show_all_elements(){
         for(int i=0;i<=top;i++){
             cout<<"elements no "<<i<<" is : "<<arr[i]<<"\n";
         }
     }
+
+    //To view specific Element
+    void peek(int index){
+        if(index>=n){
+            cout<<"invalid value\n";
+            return;
+        }
+         if(top==-1){
+            cout<<"first enter Element\n";
+            return;
+        }
+         cout<<"Element no "<<index<<" is: "<<arr[index];
+     }
 };
 
 main(){
@@ -77,4 +91,5 @@ main(){
     s.viewtop();
     s.show_all_elements();
     s.stack_status();
+    s.peek(3);
 }
