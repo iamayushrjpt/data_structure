@@ -64,16 +64,12 @@ public:
 
     //To view specific Element
     void peek(int index){
-        if(index>=n){
+        if(index>n || index<1){
             cout<<"invalid value\n";
             return;
         }
-         if(top==-1){
-            cout<<"first enter Element\n";
-            return;
-        }
-         cout<<"Element no "<<index<<" is: "<<arr[index];
-     }
+         cout<<"Element no "<<index<<" is: "<<arr[index-1]<<endl;
+    }
 };
 
 main(){
