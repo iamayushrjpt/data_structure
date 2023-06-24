@@ -80,19 +80,6 @@ main(){
 //    Insert_Element_In_Between(0,head,4);
 //    Insert_Element_After_Node(0,second);
 //    Insert_Element_At_End(0,fourth);
-
-//    traversal(head);
-
-//    head=delete_At_First(head);      <- case 1
-//    traversal(head);
-
-//    head=delete_By_Index(head,2);    <- case 2
-//    traversal(head);
-
-//    head=delete_At_Last(head);       <- case 3
-//    traversal(head);
-
-//    head=delete_(head,11);           <- case 4
-//    traversal(head);
+    
 }
 
