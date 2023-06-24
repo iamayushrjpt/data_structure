@@ -87,7 +87,7 @@ main(){
 //    head=delete_At_First(head);      <- case 1
 //    traversal(head);
 
-//    head=delete_By_Index(head,0);    <- case 2
+//    head=delete_By_Index(head,2);    <- case 2
 //    traversal(head);
 //
 //    head=delete_At_Last(head);       <- case 3
